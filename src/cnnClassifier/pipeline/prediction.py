@@ -24,7 +24,7 @@ class PredictionPipeline:
 
         if result[0] == 1:
             prediction = 'Normal'
-            return [{ "image" : prediction}]
+            return [{ "image" :prediction}]
         else:
             prediction = 'Stone'
-            return [{ "image" : prediction}]
+            return [{ "image" :prediction}]
